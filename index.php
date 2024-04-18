@@ -6,7 +6,17 @@ include "db_conn.php";
 <html lang="en">
 
 <head>
+  <style>
+    body{
+background-image: url(Capture.png);
+background-size: cover;
+background-color: dark;
+}
 
+
+
+
+</style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,24 +55,26 @@ include "db_conn.php";
     ?>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
+  <a class="navbar-brand" href="index.php">Our Dessert Shop</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" class="table-hover" href="contact.php">Contact</a>
+          <a class="nav-link" href="contact.php">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="location.php">Location</a>
+          <a class="nav-link" href="branches.php">Branches</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+    
     <a href="add-new.php" class="btn btn-dark mb-3">Add Menu</a>
        
     <table id="table" class="table table-hover text-center">
@@ -82,7 +94,7 @@ include "db_conn.php";
         while ($row = mysqli_fetch_assoc($result)) {
         ?>
           <tr>
-            
+          
             <td><?php echo $row["Menu"] ?></td>
             <td><?php echo $row["Flavor"] ?></td>
             <td><?php echo $row["Price"] ?></td>
@@ -119,4 +131,7 @@ include "db_conn.php";
 
 </body>
 
+</html>
+    
+</body>
 </html>

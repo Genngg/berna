@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <style>
-    {
-  background-color: dark;
-}
+    
+       body{
+
+        background-image: url(background.png);
+        background-size: cover;
+        background-color: dark;
+       
+      }
 
 h1 {
   color: solid black;
@@ -23,14 +28,14 @@ h5 {
   text-align: center;
 }
 h5 {
-  color: green;
+  color: white;
   text-align: center;
 }
 </style>
     
 </head>
 <body>
-     <h1><i>About Us</h1></i>
+     <h1><i>About Us</h1></i><br>
     <h5>A dessert is something sweet, such as fruit, pastry, or ice cream, that you eat at the end of a meal.Our cake as being rich and chocolaty, light and fluffy, tangy and citrusy, or sweet and fruity.</h5>
     <h5>Our cake as being rich and chocolaty, light and fluffy, tangy and citrusy, or sweet and fruity.</h5> 
     <h5>Other possible ways to describe the taste of our cake could include moist, creamy, nutty, spicy, or savory, depending on the ingredients and flavors used in the recipe.</h5>

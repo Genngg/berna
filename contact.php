@@ -6,9 +6,13 @@
     <title>Contact</title>
 </head>
 <style>
+  body{
+    background-color: #F5DEB3;
+  }
     {
   background-color: dark;
 }
+
 
 h1 {
   color: pink;

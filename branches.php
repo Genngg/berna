@@ -6,6 +6,15 @@
     <title>Location</title>
 </head>
 <style>
+    body{
+
+background-image: url(branches.png);
+background-size: cover;
+background-color: dark;
+
+
+}
+
     {
   background-color: dark;
 }
@@ -17,7 +26,7 @@ h1 {
   
 }
 h3 {
-  color:  #778899;
+  color:  magenta;
   text-align: center;
   
 }
